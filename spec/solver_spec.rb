@@ -38,7 +38,7 @@ describe Solver do
   context 'when the reverse method is used' do
     it 'should return "olloh" for "hello"' do
       reversed_word = @solver.reverse('hello')
-      expect(reversed_word).to match 'olloh'
+      expect(reversed_word).to match 'olleh'
     end
   end
 end
