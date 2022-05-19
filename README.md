@@ -3,8 +3,8 @@
 
 # Ruby TDD Project
 
-This project is demo project intended to exercise unit testing using Rspec, Rspec unit tests with mocks, and the TDD concept.
-In this project, two methods namely `factorial` and `reverse` are implemented with in the `Solver` class. The resulting implementation is based on the the test driven development(TDD) approach. 
+This project is a demo project intended to exercise unit testing using Rspec, Rspec unit tests with mocks, and the TDD concept.
+In this project, three methods namely `factorial`, `fizzbuzz and `reverse` are implemented. The resulting implementation is based on the the test driven development(TDD) approach. 
 
 
 ## Built with
