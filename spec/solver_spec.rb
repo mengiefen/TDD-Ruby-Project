@@ -41,4 +41,21 @@ describe Solver do
       expect(reversed_word).to match 'olleh'
     end
   end
+
+  context 'when the fixzbuzz method is used' do
+    it 'should return "fizz" for number divisible by 3' do
+      response = @solver.fixzbuzz(9)
+      expect(response).to match 'fizz'
+    end
+
+    it 'should return "fizz" for number divisible by 5' do
+      response = @solver.fixzbuzz(5)
+      expect(response).to match 'buzz'
+    end
+
+    it 'should return "fizzbuzz" for number divisible by 3 and by 5' do
+      response = @solver.fixzbuzz(9)
+      expect(response).to match 'fizzbuzz'
+    end
+  end
 end
