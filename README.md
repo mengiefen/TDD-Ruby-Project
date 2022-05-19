@@ -18,6 +18,10 @@ In this project, two methods namely `factorial` and `reverse` are implemented wi
     - npm ( Node Package Manager )
     - Git and Github Account
 
+# Testing 
+    -  First insall rspec with `gem install rspec`
+    -  run `rspec spec`
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -25,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Change to the desired directory then run the following:
 
-  - Run `git clone git@github.com:mengiefen/school_library.git`
+  - Run `git clone git@github.com:mengiefen/TDD-Ruby-Project.git`
 
   - cd repo-name/ 
 ## Running the Application
