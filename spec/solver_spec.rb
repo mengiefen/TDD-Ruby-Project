@@ -22,5 +22,16 @@ describe Solver do
       factorial_value = @solver.factorial(number)
       expect(factorial_value).to eq 1
     end
+
+    it 'should return 1 as the factorial computation of 1' do
+      number = 1
+      factorial_value = @solver.factorial(number)
+      expect(factorial_value).to eq 1
+    end
+
+    it 'should raise an error if the factorial computation of negative numbers' do
+      number = -1
+      expect(@solver.factorial(number)).to match 'Invalid number'
+    end
   end
 end
