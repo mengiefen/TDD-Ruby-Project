@@ -1,4 +1,4 @@
-require '../solver'
+require './solver'
 
 describe Solver do
   before :each do
@@ -32,6 +32,13 @@ describe Solver do
     it 'should raise an error if the factorial computation of negative numbers' do
       number = -1
       expect(@solver.factorial(number)).to match 'Invalid number'
+    end
+  end
+
+  context 'when the reverse method is used' do
+    it 'should return "olloh" for "hello"' do
+      reversed_word = @solver.reverse('hello')
+      expect(reversed_word).to match 'olloh'
     end
   end
 end
