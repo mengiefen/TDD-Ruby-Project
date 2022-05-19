@@ -44,17 +44,17 @@ describe Solver do
 
   context 'when the fixzbuzz method is used' do
     it 'should return "fizz" for number divisible by 3' do
-      response = @solver.fixzbuzz(9)
+      response = @solver.fizzbuzz(9)
       expect(response).to match 'fizz'
     end
 
     it 'should return "fizz" for number divisible by 5' do
-      response = @solver.fixzbuzz(5)
+      response = @solver.fizzbuzz(5)
       expect(response).to match 'buzz'
     end
 
     it 'should return "fizzbuzz" for number divisible by 3 and by 5' do
-      response = @solver.fixzbuzz(9)
+      response = @solver.fizzbuzz(15)
       expect(response).to match 'fizzbuzz'
     end
   end
