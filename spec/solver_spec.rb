@@ -16,5 +16,11 @@ describe Solver do
       factorial_value = @solver.factorial(number)
       expect(factorial_value).to eq 120
     end
+
+    it 'should return 1 as the factorial computation of 0 ' do
+      number = 0
+      factorial_value = @solver.factorial(number)
+      expect(factorial_value).to eq 1
+    end
   end
 end
