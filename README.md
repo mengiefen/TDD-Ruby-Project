@@ -3,8 +3,8 @@
 
 # Ruby TDD Project
 
-This project is demo project intended to exercise unit testing using Rspec, Rspec unit tests with mocks, and the TDD concept.
-In this project, two methods namely `factorial` and `reverse` are implemented with in the `Solver` class. The resulting implementation is based on the the test driven development(TDD) approach. 
+This project is a demo project intended to exercise unit testing using Rspec, Rspec unit tests with mocks, and the TDD concept.
+In this project, three methods namely `factorial`, `fizzbuzz and `reverse` are implemented. The resulting implementation is based on the the test driven development(TDD) approach. 
 
 
 ## Built with
@@ -18,6 +18,10 @@ In this project, two methods namely `factorial` and `reverse` are implemented wi
     - npm ( Node Package Manager )
     - Git and Github Account
 
+# Testing 
+    -  First insall rspec with `gem install rspec`
+    -  run `rspec spec`
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -25,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Change to the desired directory then run the following:
 
-  - Run `git clone git@github.com:mengiefen/school_library.git`
+  - Run `git clone git@github.com:mengiefen/TDD-Ruby-Project.git`
 
   - cd repo-name/ 
 ## Running the Application
